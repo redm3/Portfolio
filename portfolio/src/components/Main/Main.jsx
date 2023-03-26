@@ -29,13 +29,17 @@ const Main = () => {
                             style={{ fontSize: '1em', paddingLeft: '5px' }}
                         />
                     </h2>
-                    <div className='flex justify-between pt-6 max-w-[50px] w-full'>
+                    <div className='flex justify-between pt-6 max-w-[80px] w-full'>
                         <a href='https://www.linkedin.com/in/marco-wells-a7a765133/' target='_blank' rel='noopener noreferrer'>
                             <FaLinkedinIn className='cursor-pointer' size={20} />
                         </a>
                         <a href='https://github.com/redm3' target='_blank' rel='noopener noreferrer'>
                             <FaGithub className='cursor-pointer' size={20} />
                         </a>
+                        <a href='https://www.file14studios.com/' target='_blank' rel='noopener noreferrer'>
+                            <img src="./src/assets/File14.png" className='cursor-pointer' size={40} alt="File14 Studios logo" />
+                        </a>
+
                     </div>
                 </div>
             </div>

@@ -9,6 +9,7 @@ export const particlesConfig = {
         },
         color: {
             value: "#0000ff", // change to blue color
+            opacity: 0.9,
             animation: {
                 enable: true,
                 speed: 20,
