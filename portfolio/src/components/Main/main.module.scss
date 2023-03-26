@@ -1,30 +1,61 @@
+.img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right:20%;
 
-
-    .img .absImg {
-        background: url("./../assets/img/photo.png") center no-repeat;
-        background-size: contain; 
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        animation: morph 8s ease-in-out infinite 1s;
-        background-blend-mode: multiply;
-        box-shadow: inset 0 0 0 9px rgba(255, 1, 79, 0.3);
+    @media screen and (max-width: 1020px) {
+        width: 200px;
+        height: 200px;
+        top: 20%;
+        right: 50%;
+        left: 40%;
+        transform: translateY(-50%);
     }
+    @media screen and (max-width: 766px) {
+        width: 200px;
+        height: 200px;
+        top: 20%;
+        right: 50%;
+        left: 40%;
+        transform: translateY(-50%);
+    }
+    @media screen and (max-width: 550px) {
+        width: 200px;
+        height: 200px;
+        top: 20%;
+        right: 50%;
+        left: 30%;
+        transform: translateY(-50%);
+    }
+}
 
-    .img .absImg {
-        @keyframes morph {
-            0% {
-                border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-            }
+.absImg{
+    background: url("./src/assets/photo.png") center no-repeat;
+    background-size: contain; 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: morph 8s ease-in-out infinite 1s;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 9px rgba(255, 1, 79, 0.3);
+    width: 100%;
 
-            50% {
-                border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
-            }
+    @keyframes morph {
+        0% {
+            border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        }
 
-            100% {
-                border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-            }
+        50% {
+            border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+        }
+
+        100% {
+            border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
         }
     }
+}

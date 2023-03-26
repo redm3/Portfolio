@@ -41,7 +41,7 @@ export const particlesConfig = {
             }
         },
         size: {
-            value: 3,
+            value: 15,
             random: true,
             anim: {
                 enable: false,
@@ -55,7 +55,7 @@ export const particlesConfig = {
             distance: 100,
             color: "#ffffff", // change to white color
             opacity: 0.4,
-            width: 1,
+            width: 10,
             triangles: {
                 enable: true,
                 color: "#ffffff", // change to white color
@@ -66,7 +66,7 @@ export const particlesConfig = {
             enable: true,
             speed: 3,
             direction: "top", // change to upward direction
-            random: false,
+            random: true,
             straight: false,
             out_mode: "out",
             attract: {
@@ -80,7 +80,7 @@ export const particlesConfig = {
         detect_on: "canvas",
         events: {
             onhover: {
-                enable: false,
+                enable: true,
                 mode: "repulse"
             },
             onclick: {
@@ -98,7 +98,7 @@ export const particlesConfig = {
             },
             bubble: {
                 distance: 400,
-                size: 40,
+                size: 4000,
                 duration: 2,
                 opacity: 0.8,
                 speed: 3
