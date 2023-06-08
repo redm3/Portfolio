@@ -4,6 +4,7 @@ import Main from './components/Main/Main'
 import Work from './components/Work/Work'
 import Projects from './components/Projects/projects'
 import Contact from './components/Contact.jsx/Contact'
+import EarthCanvas from './components/Canvas/Earth'
 
 
 function App() {
@@ -14,7 +15,11 @@ function App() {
       <Main/>
       <Work/>
       <Projects/>
+      
       <Contact/>
+      <EarthCanvas/>
+      
+      
 
     </div>
 

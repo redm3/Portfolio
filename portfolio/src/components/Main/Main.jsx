@@ -5,6 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 import { ParticlesBackground } from '../ParticlesBackground/ParticlesBackground';
 import s from './main.module.scss';
 
+
 const Main = () => {
     return (
         <div id='main'>
