@@ -2,7 +2,7 @@
 import SideNav from './components/NavBar/SideNav';
 import Main from './components/Main/Main'
 import Work from './components/Work/Work'
-import Projects from './components/Projects/projects'
+import Projects from './components/Projects/Projects';
 import Contact from './components/Contact.jsx/Contact'
 import EarthCanvas from './components/Canvas/Earth'
 
