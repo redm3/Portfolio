@@ -1,5 +1,5 @@
 /* import { ParticlesBackground } from './components/ParticlesBackground/ParticlesBackground' */
-import SideNav from './components/NavBar/sidenav'
+import SideNav from './components/NavBar/SideNav';
 import Main from './components/Main/Main'
 import Work from './components/Work/Work'
 import Projects from './components/Projects/projects'
